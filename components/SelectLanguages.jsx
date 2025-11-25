@@ -69,7 +69,7 @@ export function SelectLanguages() {
                     height={24}
                     alt={"img"}
                     className={'rounded-md me-2 border'}
-                /> O'zbek</DropdownMenuItem>
+                /> O&apos;zbek</DropdownMenuItem>
                 <DropdownMenuItem onClick={() => changeLanguage("ru")}><Image
                     src={ru}
                     width={24}
