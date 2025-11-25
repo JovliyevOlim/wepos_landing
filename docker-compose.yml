@@ -3,7 +3,7 @@ version: '3.9'
 services:
   westep:
     build: .
-    container_name: westep_landing
+    container_name: wepos_landing
     ports:
-      - "3000:3000"
+      - "3030:3030"
     restart: always
