@@ -1,0 +1,38 @@
+.backGif {
+    background-image:
+        linear-gradient(
+        to right,
+        #1c2f91,
+        #2d48de
+    ),
+    url("../assets/backGif1.gif"),
+    url("../assets/backGif1.gif")
+;
+    width: 100%;
+    height: 242px;
+    background-repeat: no-repeat;
+    background-position: 0 25%;
+    background-size: 100%;
+    background-blend-mode: lighten;
+}
+@media (max-width: 640px){
+    .backGif{
+        height: max-content;
+        background-size: auto;
+
+    }
+}
+@media (min-width: 640.9px) and (max-width: 768px){
+    .backGif{
+        height: max-content;
+        background-size: 100%;
+
+    }
+}
+@media (min-width: 768.9px) and (max-width: 1024px){
+    .backGif{
+        height: max-content;
+
+    }
+}
+
