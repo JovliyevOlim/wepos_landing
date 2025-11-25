@@ -29,5 +29,5 @@ jobs:
                     host: ${{ secrets.SERVER_IP }}
                     username: root
                     key: ${{ secrets.SSH_PRIVATE_KEY }}
-                    source: "dist/*"
+                    source: "./*"
                     target: "/var/www/wepos_landing"
