@@ -19,8 +19,8 @@ const Footer = () => {
                     className={'flex flex-col lg:flex-row justify-between items-top gap-3  basis-3/5'}>
                     <div className={'flex justify-center flex-col gap-1'}>
                         <p className={'font-medium justify-center text-center text-sm text-[#9A999B]'}>{t("addressName")}</p>
-                        <h2 className={'text-base justify-center text-center font-bold'}>{t("addressFull")}
-                        </h2>
+                        {/*<h2 className={'text-base justify-center text-center font-bold'}>{t("addressFull")}*/}
+                        {/*</h2>*/}
                         <h2 className={'text-base justify-center text-center font-bold'}>{t("address")}</h2>
                     </div>
                     {/*<div className={'flex flex-col gap-1'}>*/}
@@ -29,7 +29,7 @@ const Footer = () => {
                     {/*</div>*/}
                     <div className={'flex flex-col gap-1'}>
                         <p className={'font-medium text-sm text-[#9A999B] text-center'}>{t("myPhone")}</p>
-                        <h2 className={'text-base font-bold text-center'}>+998 97 767 77 93</h2>
+                        <h2 className={'text-base font-bold text-center'}>+998 77 044 01 05</h2>
                     </div>
                 </div>
                 <div

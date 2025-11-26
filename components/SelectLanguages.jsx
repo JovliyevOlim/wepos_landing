@@ -59,7 +59,7 @@ export function SelectLanguages() {
                         alt={"img"}
                         className={'rounded-md me-1'}
                     />
-                    <h3 className={'text-black'}> {selectLanguageForm()}</h3>
+                    <h3 className={'text-black dark:text-white'}> {selectLanguageForm()}</h3>
                 </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end" className="outline-none">

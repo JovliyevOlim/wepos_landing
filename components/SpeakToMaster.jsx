@@ -65,7 +65,7 @@ const SpeakToMaster = () => {
                         className={'flex  flex-col sm:flex-row gap-4 rounded-3xl justify-between items-center bg-white p-1 pt-4 sm:p-1 sm:ps-6'}>
                         <input type="tel" id="phone" name="phone" value={inputValue}
                                onChange={handleInput} required
-                               className={'outline-0 font-normal w-10/12 sm:w-1/2 text-base'}
+                               className={'outline-0 font-normal w-10/12 sm:w-1/2 text-base bg-transparent'}
                                placeholder={'+998'}/>
                         <Button size={'sm'} className={'w-full sm:w-1/2'}
                                 variant={'blue'}>
@@ -78,8 +78,7 @@ const SpeakToMaster = () => {
                     className={'lg:basis-2/5 xl:basis-1/4 flex flex-col sm:flex-row lg:flex-col  justify-center items-center lg:items-end sm:justify-between mt-2'}>
                     {/*<h1 className={'text-white text-end text-3xl lg:text-5xl'}>Miro</h1>*/}
                     <Image src={logo} width={100} height={54} alt="logo"/>
-                    <p className={'text-white text-end text-xl font-semibold mt-2'}>+998 97 767 77
-                        93</p>
+                    <p className={'text-white text-end text-xl font-semibold mt-2'}>+998 77 044 01 05</p>
                 </div>
             </div>
         </div>
