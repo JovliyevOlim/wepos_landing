@@ -1,8 +1,9 @@
 version: '3.9'
 
 services:
-  westep:
+  wepos:
     build: .
+    image: wepos_landing
     container_name: wepos_landing
     ports:
       - "3000:3000"
