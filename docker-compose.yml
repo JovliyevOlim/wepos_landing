@@ -5,5 +5,5 @@ services:
     build: .
     container_name: wepos_landing
     ports:
-      - "3030:3030"
+      - "3000:3000"
     restart: always
